@@ -14,10 +14,10 @@ description: |
 Ensure the repository is a valid git repository, and you have permissions to commit and tag changes.
 
 ### Workflow
-1. Ensure all changes in the repository are complete and ready for committing.
-2. Trigger the skill and follow the prompts:
-   - Specify whether the change is a major, minor, or patch.
-   - Enter an appropriate commit message when prompted.
+1. Find the latest tag in repository using `git describe --tags --abbrev=0`.
+2. Ask user if all changes in repository are ready for commiting
+3. Ask user if they want to increment major, minor, or patch version
+4. Generate a commit message and follow git message convention
 
 ### Output
 The skill will:
@@ -27,7 +27,3 @@ The skill will:
 - Output the following reminders:
   - The new tag applied.
   - Reminder to push the changes: `git push --follow-tags`.
-
-### Files Used
-- `scripts/increment_version.sh`: Extracts the latest tag, increments it based on version type, and returns the new tag.
-- `scripts/create_commit_and_tag.sh`: Stages changes, generates a commit, applies the new tag, and outputs prompts for the user.
