@@ -1,0 +1,54 @@
+lockfile_version: '1'
+generated_at: '2026-05-18T13:32:19.912683+00:00'
+apm_version: 0.12.4
+dependencies:
+- repo_url: github/awesome-copilot
+  host: github.com
+  resolved_commit: 541b7819d8c3545c6df122491af4fa1eae415779
+  virtual_path: skills/context-map
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/context-map
+  content_hash: sha256:cca0523289057f0f6fbff2c3ead5063359dd2482a451bf8694eac0f282185786
+- repo_url: mattpocock/skills
+  host: github.com
+  resolved_commit: 67bce91c80cd1020a4f068ced32d0281656842ad
+  virtual_path: skills/engineering/grill-with-docs
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/grill-with-docs
+  content_hash: sha256:1adf321072f53cce3dcaf5357d91b8230d4aa647bb8a51756745337a6ee567b8
+- repo_url: vercel-labs/skills
+  host: github.com
+  resolved_commit: c5ad3a85b4d16666974b161131413d08bfef3f7e
+  virtual_path: skills/find-skills
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/find-skills
+  content_hash: sha256:d31e234f0c90694a670222cdd1dafa853e051d7066beda389f1097c22dadd461
+mcp_servers:
+- atlassian-mcp-server
+- context-mode
+- context7
+- jfrog-mcp-server
+- microsoft/markitdown
+mcp_configs:
+  atlassian-mcp-server:
+    name: atlassian-mcp-server
+  context-mode:
+    name: context-mode
+    transport: stdio
+    registry: false
+    command: context-mode
+  context7:
+    name: context7
+  jfrog-mcp-server:
+    name: jfrog-mcp-server
+  microsoft/markitdown:
+    name: microsoft/markitdown
+local_deployed_files:
+- .agents/skills/apm-help
+- .agents/skills/install-context-mode
