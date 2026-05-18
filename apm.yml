@@ -1,0 +1,24 @@
+name: apm-poc
+version: 0.0.1
+description: APM PoC Project for testing agent config distribution
+author: ozltr@github.com
+targets:
+- claude
+- copilot
+- opencode
+dependencies:
+  apm:
+  - mattpocock/skills/skills/engineering/grill-with-docs
+  - github/awesome-copilot/skills/context-map
+  - vercel-labs/skills/skills/find-skills
+  mcp:
+  - microsoft/markitdown
+  - atlassian-mcp-server
+  - context7
+  - jfrog-mcp-server
+  - name: context-mode
+    registry: false
+    transport: stdio
+    command: context-mode
+includes: auto
+scripts: {}

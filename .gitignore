@@ -1,0 +1,10 @@
+
+# APM dependencies
+apm_modules/
+.agents/
+.claude/
+.gemini/
+.github/
+.opencode/
+.vscode/
+opencode.json

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "WorkIQ-SharePoint": {
+      "type": "http",
+      "url": "https://agent365.svc.cloud.microsoft/agents/tenants/{tenantId}/servers/mcp_SharePointRemoteServer",
+      "oauth": {
+        "clientId": "{clientId}",
+        "callbackPort": 8080
+      }
+    }
+  }
+}
