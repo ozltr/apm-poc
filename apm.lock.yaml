@@ -1,7 +1,115 @@
 lockfile_version: '1'
-generated_at: '2026-05-18T13:32:19.912683+00:00'
+generated_at: '2026-05-18T15:55:37.149909+00:00'
 apm_version: 0.12.4
 dependencies:
+- repo_url: JuliusBrussee/caveman
+  host: github.com
+  resolved_commit: 18e45320a0b1aecc959a807f8568ee44b3aaa055
+  virtual_path: skills/cavecrew
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/cavecrew
+  content_hash: sha256:505d836228d1c5e14834ff5d62aad72390c7d27f79c6aa7f9a7a55ed6606d6a2
+- repo_url: JuliusBrussee/caveman
+  host: github.com
+  resolved_commit: 18e45320a0b1aecc959a807f8568ee44b3aaa055
+  virtual_path: skills/caveman
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/caveman
+  content_hash: sha256:dfbf85749fd474feeb0bbe60c779795ecd5dbec0083299b56e68916bc3ddd8c9
+- repo_url: JuliusBrussee/caveman
+  host: github.com
+  resolved_commit: 18e45320a0b1aecc959a807f8568ee44b3aaa055
+  virtual_path: skills/caveman-commit
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/caveman-commit
+  content_hash: sha256:f456ea0564875e46858890ac39ee701ecb9c601c72a2da1e6ce6bd5f9fc5d817
+- repo_url: JuliusBrussee/caveman
+  host: github.com
+  resolved_commit: 18e45320a0b1aecc959a807f8568ee44b3aaa055
+  virtual_path: skills/caveman-compress
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/caveman-compress
+  content_hash: sha256:cf95ba233d367e824ce815355ba71e40b93dc1c6ffa416ae0a81a0f73fc8fd03
+- repo_url: JuliusBrussee/caveman
+  host: github.com
+  resolved_commit: 18e45320a0b1aecc959a807f8568ee44b3aaa055
+  virtual_path: skills/caveman-help
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/caveman-help
+  content_hash: sha256:2c21437427e98df1eacabaa0b055b5256a308b2191feea3ca2df6a9418e76cb1
+- repo_url: JuliusBrussee/caveman
+  host: github.com
+  resolved_commit: 18e45320a0b1aecc959a807f8568ee44b3aaa055
+  virtual_path: skills/caveman-review
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/caveman-review
+  content_hash: sha256:fb7214a1c5793bae6ba8b1be4329e2e6f40dbec6dd911dfb335ad29f09c316a1
+- repo_url: JuliusBrussee/caveman
+  host: github.com
+  resolved_commit: 18e45320a0b1aecc959a807f8568ee44b3aaa055
+  virtual_path: skills/caveman-stats
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/caveman-stats
+  content_hash: sha256:47ce2de3d6cb39a75047b5c962e4eb3da15594e7397c94103e9a104d42626553
+- repo_url: anthropics/skills
+  host: github.com
+  resolved_commit: 6a5bb06904ab164a345e41c381fc9097954b83da
+  virtual_path: skills/docx
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/docx
+  content_hash: sha256:eaa28b10e439939ebbd980912c79e93a5518964927f4bc7d4b8794e51663016c
+- repo_url: anthropics/skills
+  host: github.com
+  resolved_commit: 6a5bb06904ab164a345e41c381fc9097954b83da
+  virtual_path: skills/pdf
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/pdf
+  content_hash: sha256:69e2ac9eb2bbe2881df26acc53b46b39a15cfda206f5357e5f9c83feb0fadcc7
+- repo_url: anthropics/skills
+  host: github.com
+  resolved_commit: 6a5bb06904ab164a345e41c381fc9097954b83da
+  virtual_path: skills/pptx
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/pptx
+  content_hash: sha256:fe530e7c549627879d4b333f11330f966730054003c7f11b520b5f2e0401e8cd
+- repo_url: anthropics/skills
+  host: github.com
+  resolved_commit: 6a5bb06904ab164a345e41c381fc9097954b83da
+  virtual_path: skills/skill-creator
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/skill-creator
+  content_hash: sha256:b2bfe91d69ca99994c0566baede889e7d2b9bb8791c6b6106c5d387392f717f6
+- repo_url: anthropics/skills
+  host: github.com
+  resolved_commit: 6a5bb06904ab164a345e41c381fc9097954b83da
+  virtual_path: skills/xlsx
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/xlsx
+  content_hash: sha256:38d1187a140b4c5470ab523f229560f29c96f6bb95552f952e1710d3bfbdbfea
 - repo_url: github/awesome-copilot
   host: github.com
   resolved_commit: 541b7819d8c3545c6df122491af4fa1eae415779
@@ -52,3 +160,5 @@ mcp_configs:
 local_deployed_files:
 - .agents/skills/apm-help
 - .agents/skills/install-context-mode
+- .agents/skills/install-sharepoint-workiq-mcp
+- .agents/skills/workflow-tag-new-helper

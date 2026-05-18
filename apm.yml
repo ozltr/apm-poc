@@ -8,9 +8,21 @@ targets:
 - opencode
 dependencies:
   apm:
+  - anthropics/skills/skills/skill-creator
+  - anthropics/skills/skills/pdf
+  - anthropics/skills/skills/docx
+  - anthropics/skills/skills/pptx
+  - anthropics/skills/skills/xlsx
   - mattpocock/skills/skills/engineering/grill-with-docs
   - github/awesome-copilot/skills/context-map
   - vercel-labs/skills/skills/find-skills
+  - JuliusBrussee/caveman/skills/caveman
+  - JuliusBrussee/caveman/skills/caveman-compress
+  - JuliusBrussee/caveman/skills/caveman-commit
+  - JuliusBrussee/caveman/skills/caveman-help
+  - JuliusBrussee/caveman/skills/caveman-review
+  - JuliusBrussee/caveman/skills/caveman-stats
+  - JuliusBrussee/caveman/skills/cavecrew
   mcp:
   - microsoft/markitdown
   - atlassian-mcp-server
